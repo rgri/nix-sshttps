@@ -1,0 +1,14 @@
+#+title: nix-sshttps
+
+Unofficial (non-nixpkgs) flake of [[https://github.com/stealth/sshttp#sshttp---hiding-ssh-servers-behind-http][sshttps]]. Please refer to that link for information on licensing restrictions.
+
+** Run without installing
+:PROPERTIES:
+:ID: 09e41b61-0c89-4d6c-8c29-c3e431956ee4
+:END:
+#+begin_src bash
+nix run github:rgri/sshttps
+#+end_src
+
+
+
