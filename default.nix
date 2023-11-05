@@ -28,3 +28,7 @@ stdenv.mkDerivation rec {
     platforms = [ "x86_64-linux" ];
   };
 }
+
+# TODO: The license is 4-clause BSD, not MIT
+# TODO: And usually something like mkdir -p $out; cp -r * $out would be in the installPhase
+# TODO: Also set platforms = platforms.linux, unless the program really only works on x86.
